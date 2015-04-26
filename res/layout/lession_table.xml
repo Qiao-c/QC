@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget36"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/t_day_6"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/t_day_5"
+        android:gravity="center"
+        android:text="周六" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/t_day_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t1_lession_1"
+        android:layout_toRightOf="@+id/t_day_4"
+        android:gravity="center"
+        android:text="周五" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/t_day_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t1_lession_1"
+        android:layout_toRightOf="@+id/t_day_3"
+        android:gravity="center"
+        android:text="周四" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/t_day_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t1_lession_1"
+        android:layout_toRightOf="@+id/t_day_2"
+        android:gravity="center"
+        android:text="周三" >
+    </TextView>
+
+    <Button
+        android:id="@+id/t2_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t_day_2"
+        android:layout_alignTop="@+id/t1_lession_1"
+        android:text="一" >
+    </Button>
+
+    <Button
+        android:id="@+id/t3_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t_day_3"
+        android:layout_alignTop="@+id/t1_lession_1"
+        android:text="一" >
+    </Button>
+
+    <Button
+        android:id="@+id/t4_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t_day_4"
+        android:layout_alignTop="@+id/t2_lession_1"
+        android:text="一" >
+    </Button>
+
+    <TextView
+        android:id="@+id/t_day_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t1_lession_1"
+        android:layout_toRightOf="@+id/t1_lession_1"
+        android:gravity="center"
+        android:text="周二" >
+    </TextView>
+
+    <Button
+        android:id="@+id/t1_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t_day_7"
+        android:text="一" >
+    </Button>
+
+    <TextView
+        android:id="@+id/t_day_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="周一" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/t_day_7"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/t_day_6"
+        android:gravity="center"
+        android:text="周日" />
+
+    <Button
+        android:id="@+id/t5_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t4_lession_1"
+        android:layout_alignBottom="@+id/t4_lession_1"
+        android:layout_toRightOf="@+id/t4_lession_1"
+        android:text="一" />
+
+    <Button
+        android:id="@+id/t6_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t5_lession_1"
+        android:layout_alignBottom="@+id/t5_lession_1"
+        android:layout_toLeftOf="@+id/t_day_7"
+        android:text="一" />
+
+    <Button
+        android:id="@+id/t7_lession_1"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t6_lession_1"
+        android:layout_alignBottom="@+id/t6_lession_1"
+        android:layout_alignLeft="@+id/t_day_7"
+        android:text="一" />
+
+    <Button
+        android:id="@+id/t2_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2_lession_1"
+        android:layout_toLeftOf="@+id/t3_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t3_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3_lession_1"
+        android:layout_toLeftOf="@+id/t4_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t4_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t3_lession_2"
+        android:layout_alignBottom="@+id/t3_lession_2"
+        android:layout_toLeftOf="@+id/t5_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t5_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t4_lession_2"
+        android:layout_alignBottom="@+id/t4_lession_2"
+        android:layout_toLeftOf="@+id/t6_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t6_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5_lession_1"
+        android:layout_toRightOf="@+id/t5_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t7_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t7_lession_1"
+        android:layout_below="@+id/t7_lession_1"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t7_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t7_lession_2"
+        android:layout_below="@+id/t7_lession_2"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t6_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t6_lession_2"
+        android:layout_below="@+id/t6_lession_2"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t5_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5_lession_2"
+        android:layout_toLeftOf="@+id/t6_lession_2"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t4_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4_lession_2"
+        android:layout_toLeftOf="@+id/t5_lession_2"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t3_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t4_lession_3"
+        android:layout_alignBottom="@+id/t4_lession_3"
+        android:layout_toLeftOf="@+id/t4_lession_3"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t1_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t1_lession_2"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t1_lession_2"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t3_lession_3"
+        android:layout_alignParentLeft="true"
+        android:text="二" />
+
+    <Button
+        android:id="@+id/t2_lession_3"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t3_lession_3"
+        android:layout_alignBottom="@+id/t3_lession_3"
+        android:layout_toLeftOf="@+id/t3_lession_3"
+        android:text="三" />
+
+    <Button
+        android:id="@+id/t1_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t1_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t2_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3_lession_3"
+        android:layout_toLeftOf="@+id/t3_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t3_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t3_lession_3"
+        android:layout_below="@+id/t3_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t4_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5_lession_3"
+        android:layout_toLeftOf="@+id/t5_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t5_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6_lession_3"
+        android:layout_toLeftOf="@+id/t6_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t6_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6_lession_3"
+        android:layout_toRightOf="@+id/t5_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t7_lession_4"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t7_lession_3"
+        android:layout_below="@+id/t7_lession_3"
+        android:text="四" />
+
+    <Button
+        android:id="@+id/t1_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t1_lession_4"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t2_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1_lession_4"
+        android:layout_toRightOf="@+id/t1_lession_4"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t3_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2_lession_4"
+        android:layout_toRightOf="@+id/t2_lession_4"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t5_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4_lession_4"
+        android:layout_toRightOf="@+id/t4_lession_4"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t4_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t5_lession_5"
+        android:layout_alignBottom="@+id/t5_lession_5"
+        android:layout_toLeftOf="@+id/t5_lession_5"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t6_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5_lession_4"
+        android:layout_toRightOf="@+id/t5_lession_4"
+        android:text="五" />
+
+    <Button
+        android:id="@+id/t7_lession_5"
+        android:layout_width="40px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t7_lession_4"
+        android:layout_below="@+id/t7_lession_4"
+        android:text="五" />
+
+</RelativeLayout>

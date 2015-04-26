@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/widget36"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/content_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tital_2"
+            android:text="此处显示没课的部员" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tital_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/content_1"
+            android:text="空闲的部员：" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/content_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tital_1"
+            android:text="此处显示没课的部长" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tital_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/content_0"
+            android:text="空闲的部长：" >
+        </TextView>
+<!--
+        <TextView
+            android:id="@+id/content_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tital_0"
+            android:text="此处显示没有课的主席" >
+        </TextView>
+
+         <TextView
+            android:id="@+id/tital_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="空闲的主席：" >
+        </TextView>   -->
+    </RelativeLayout>   
+
+</ScrollView>
