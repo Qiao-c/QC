@@ -6,7 +6,7 @@ public class Lession implements Serializable {
 	private int min_week;
 	private int max_week;
 	/**
-	 * 0为每周都上，1为单周，2为双周   在这里我曾经修改过！！！！！！
+	 * 0为每周都上，1为单周，2为双周
 	 */
 	private int weekType;
 	public int getMin_week() {
