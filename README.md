@@ -8,3 +8,5 @@
 "git push -u origin master"   等一会就提交成功了 </br>
 关于项目的更新，先pull一下  "git pull git@github.com/Qiao-c/QC.git"<br>
 之后再提交新的项目 "git push -u origin master"
+# 关于回复本地项目版本
+键入"git log" 查看各个版本以及其哈希码。
